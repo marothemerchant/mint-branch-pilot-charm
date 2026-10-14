@@ -1,0 +1,31 @@
+I ran the page in headless Chromium and it loaded with no console errors, so now I'm going through the screenshots screen by screen for the critique.
+
+I ran StoryForge in headless Chromium at 390×844, with React bundled locally and a mock standing in for the AI. Every screen and flow worked, with no console errors and no sideways scrolling. I did not test the real Claude call, since that only works inside the Claude viewer, and Export is simulated.
+
+**What works:** the Home to Script to Storyboard to Timeline path, the motion editor with live animation, and AI tool calls that edit scenes and style.
+
+**Where the build falls short (worst first):**
+1. **The chat hides the work.** When the AI writes a script, the chat shows only a short reply, and you must open the scenes view to see what changed. The new project also kept its default title. AI edits should appear as reviewable cards with Undo.
+2. **The art doesn't hold together.** Scene 3 drops the second character and the water cooler, and every Home thumbnail looks identical. Consistent characters are the product's core promise, and stick figures don't deliver it.
+3. **The timeline is a toy.** It has no time ruler, playhead, drag-to-trim, or audio, and "Nar" is cryptic.
+4. **Nothing persists, and export is fake.**
+5. **Smaller issues:**
+   - Project titles on Home are only 25px tall to tap.
+   - The re-roll button covers part of each panel.
+   - The same dice icon means both "re-roll" and "try again."
+   - Reset and "Apply to all" are too faint.
+   - The AI can't generate the storyboard or export for you.
+
+**Against the field:** CapCut's own blog says it turns a script into a video, then lets you click "Edit More" to enter the online editor, and it claims script-to-video maker, auto captions, and AI avatars in one place. Descript is best known for editing through transcripts, the "edit like a doc" approach. InVideo makes a complete video from a text prompt, with voiceover, music, and transitions. Those sources are vendor-leaning roundups. What I say about Runway, Google's tools, and Vyond is from memory and unchecked.
+
+- **Where they win:** raw generation quality, asset libraries, real export, and one-tap results.
+- **Where you can win:** none of them owns timing for single-panel gag cartoons, which is your wedge.
+- **Flow:** from Home, a first draft takes about six taps plus one prompt. That is comparable on taps, but they generate everything in one step and we don't yet.
+
+**What I'd build next:**
+1. Reviewable AI edits with Undo, plus a one-tap "Make video" that chains script, storyboard, and motion.
+2. A character and prop sheet per project, so scenes stay consistent, with real generated art.
+3. A timing engine that suggests punchline pauses and offers A/B caption variants.
+4. A real timeline, saved projects, and real export.
+
+I'd start with 1 and 4; they fix the most visible problems fastest. Should I?

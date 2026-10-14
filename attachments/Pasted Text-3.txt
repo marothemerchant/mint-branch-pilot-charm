@@ -1,0 +1,22 @@
+The Script tab is now a chat with an AI scriptwriter and editor, styled after your screenshot. It's live at the same link: https://claude.ai/artifact/TkCteiAqsH6skwWxFu8bDr
+
+I haven't run it in a browser, only checked that the code parses, so please tell me if anything misbehaves.
+
+**What it borrows from your screenshot**
+- **Messages:** your messages sit in rounded cards on the right, with "just now" plus edit and copy icons beneath. Edit puts the text back in the composer and rewinds the chat to that point.
+- **AI replies:** they show as plain text with copy and try-again icons, and a spinning star with a rotating status ("Drafting…", "Blocking scenes…", "Timing the gag…", "Cutting…") while the AI works.
+- **Composer:** "Write a message…" with a **+** menu (insert my current script, paste from clipboard, punch up the punchline), a send button that turns into a stop button, and a mic when your device supports dictation.
+- **Footer:** "AI can make mistakes." on the left, and a mode picker on the right: **Scriptwriter**, **Gag doctor** (punches up jokes), and **Editor** (pacing, motion, voice, timing).
+
+**What the AI can actually do**
+- It can edit the project directly. It can write a whole script, edit any scene (text, punchline, length, pause, shot, motion, voice, skip), and change the style (line weight, wash, paper).
+- You can say "Write a 4-scene gag about Monday meetings" or "Tighten this to 12 seconds, bold lines, cream paper" and the scenes and style change.
+- After that, "Generate storyboard" takes you to the panels.
+- The doc icon in the header switches between the chat and the line-by-line scene editor.
+
+**Things to know**
+- The first time you send a message, it asks permission to use Claude, and the AI runs on your own Claude usage.
+- If you open the page outside Claude, the chat shows a message saying it only works inside Claude.
+- Chats and edits last only until you reload.
+
+I can add voice-to-script (record yourself and have it transcribed into scenes) or let the AI trigger Generate storyboard and Motion for you. Which should I do?

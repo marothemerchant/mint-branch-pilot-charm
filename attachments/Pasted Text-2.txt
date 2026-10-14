@@ -1,0 +1,35 @@
+Keynote's core idea is a simple hierarchy: a deck is a list of slides, each slide has a layout, and you can see that list three ways (navigator, outline, light table). That maps almost directly onto "script → scenes → video."
+
+**What Keynote does**
+- **Three working views:** Slide view shows one slide for editing, and Outline shows a text outline with slide thumbnails alongside. There's also a light table grid for overview.
+- **Slide navigator:** a thumbnail strip beside the canvas. You tap a thumbnail to select it, hold and drag to reorder, and drag right to indent and group slides. Grouped slides can be collapsed.
+- **Layouts:** Applying a different layout restyles a slide, and you can reapply the original layout later without deleting your content.
+- **Skip instead of delete:** A skipped slide stays editable but doesn't play, which is handy for keeping two versions of a slide.
+- **Toolbar:** a short top bar with Add, Format, Animate, and Play. On iPad it can be customized by dragging buttons on and off.
+- **Play and share:** Playback advances by tap or by links only, and collaboration and animated GIF export are built in.
+
+**What to borrow**
+
+| Keynote | Your app |
+|---|---|
+| Slide | Scene or panel |
+| Slide navigator | Scene strip, drag to reorder |
+| Outline view | **Script view** (your hero feature) |
+| Light table | Storyboard grid |
+| Layouts | Cartoon templates (watercooler, podium, desk) |
+| Skip slide | Skip or mute scene, keep alt takes |
+| Grouped slides | Chapters or acts |
+| Animate tab | Motion presets (line boil, blink, push-in) |
+| Play / Rehearse | Preview with timing |
+
+**Suggested flow and tabs (phone)**
+1. **Home:** a project grid like Keynote's document manager, with an "Import script" button.
+2. **Script:** edit text. The app splits it into scenes, and each line becomes a scene.
+3. **Storyboard:** a grid of generated panels. Tap one to open it, and long-press to re-roll or swap style.
+4. **Scene editor:** the canvas with a bottom toolbar of **Style · Motion · Voice · Timing**. This replaces Keynote's Format and Animate.
+5. **Timeline:** scenes as thumbnails along a bar. Drag to reorder and trim.
+6. **Preview and export:** play, then export as MP4 or GIF, or share.
+
+One twist to Keynote: edits in the script should flow down to the storyboard automatically, so the user changes the words and the scenes update. That's your NotebookLM-style advantage.
+
+Want me to mock up the Script and Storyboard screens next?

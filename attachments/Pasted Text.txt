@@ -1,0 +1,20 @@
+Here's how print gag cartoons get animated, and how your app could automate it.
+
+**How studios animate this style**
+- **Limited animation:** Keep the single-panel drawing mostly static and animate only small things: a blink, a hand gesture, a coffee sip. The New Yorker's animated cartoons work this way.
+- **Line boil:** Redraw the outlines in 2–3 slightly different versions and cycle them, so the ink looks hand-drawn and alive. Hertzfeldt and Simon's Cat both lean on this.
+- **Cutout rigs:** Split the drawing into layers (head, arm, speech bubble, background) and move them like paper puppets. This is how Mark Fiore does animated editorial cartoons.
+- **Camera moves:** Slow push-ins, pans, and parallax on a flat drawing make it feel cinematic.
+- **Punchline timing:** The caption appears after a beat of silence, as a typed reveal or a voice-over line. Timing carries the joke.
+
+**Script-to-cartoon pipeline for your app**
+1. **Script → beats:** Split the script into one-joke or one-idea panels.
+2. **Style lock:** The user picks a look (New Yorker watercolor wash, Glasbergen bold doodle, loose pen line) and the app keeps characters consistent across panels.
+3. **Panel generation:** Generate each panel as separate layers (characters, props, background) rather than one flat image. Layers are what make animation possible.
+4. **Auto-motion:** Apply presets: line boil, blink, gesture loop, push-in, caption reveal.
+5. **Voice and timing:** Add narration or caption timing, with an auto-pause before the punchline.
+6. **Editable timeline:** The user can reorder panels, swap styles, and re-roll a single panel without redoing the whole video. This is where you beat a one-click "overview" generator.
+
+A note on the examples you attached: those are copyrighted works by working cartoonists. Use them as style references, but your app should generate original art in that general style rather than reproducing or training on specific artists' work.
+
+Want me to mock up the app's main screen (script on the left, panel storyboard in the middle, timeline below), or sketch a simple MVP spec?
