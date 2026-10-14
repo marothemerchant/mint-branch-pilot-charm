@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "StoryForge",
+      "hasCanvas": false,
+      "bodyTextLen": 10,
+      "bodyTextHash": "4871059dfa85d2f12e455cdb745a6c727ba17de62b639d6acadce461ff5df9f9",
+      "bodyTextPrefix": "StoryForge",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "StoryForge",
+      "hasCanvas": false,
+      "bodyTextLen": 431,
+      "bodyTextHash": "f3141a04978cfd06e31643b1d9c09e2943fbde2e194cb336ade43208ab3d2a37",
+      "bodyTextPrefix": "StoryForge S All 5 Cartoon gags 3 Explainers 1 Drafts 1 MAKE SOM",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

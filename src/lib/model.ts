@@ -11,6 +11,7 @@ import type {
   Scene,
   SceneDraft,
   Shot,
+  StudioEdit,
   StyleLock,
   Template,
   Voice,

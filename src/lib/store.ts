@@ -125,6 +125,7 @@ export const useStudio = create<Studio>()(
       importAndOpen: (text) => {
         const project = emptyProject("gag", "Imported script");
         const template = "cooler" as const;
+        project.kind = "draft";
         project.scenes = scenesFromScript(text, template);
         project.storyboardReady = false;
         project.chat = [
