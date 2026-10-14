@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useServerFn } from "@tanstack/react-start";
 import { Copy, FileText, Mic, Pencil, Plus, RotateCcw, Sparkles, Square } from "lucide-react";
-import { directScript } from "@/lib/ai.server";
+import { directScript } from "@/lib/direct-script";
 import { agoLabel, localRevise, totalDuration } from "@/lib/model";
 import { useStudio } from "@/lib/store";
 import type { ChatMode, Project } from "@/lib/types";

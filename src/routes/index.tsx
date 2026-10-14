@@ -26,23 +26,12 @@ function Boot() {
 
 function Studio() {
   const screen = useStudio((state) => state.screen);
-  const [ready, setReady] = useState(false);
   useLayoutEffect(() => {
-    let done = false;
-    const finish = () => {
-      if (done) return;
-      done = true;
-      setReady(true);
-    };
-    const timer = window.setTimeout(finish, 400);
-    const pending = useStudio.persist.rehydrate();
-    void Promise.resolve(pending).finally(finish);
-    return () => window.clearTimeout(timer);
+    void Promise.resolve(useStudio.persist.rehydrate());
   }, []);
-  if (!ready) return <Boot />;
   return (
     <main className="min-h-dvh bg-paper text-ink">
-      <div className="mx-auto flex h-dvh w-full max-w-3xl flex-col overflow-hidden">
+      <div className="mx-auto flex h-dvh w-full max-w-5xl flex-col overflow-hidden">
         {screen === "home" ? <HomeScreen /> : <ProjectScreen />}
       </div>
     </main>
